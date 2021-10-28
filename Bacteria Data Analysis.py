@@ -3,13 +3,17 @@
 
 def dataLoad(filename):
 # Insert your code here
-return data
+
+    filein = open(filename,"r")
+    lines =filein.readlines()
+    data = "".join(lines)
+    return data
 
 
-
-def dataStatistics(data, statistic):
+print(dataLoad("test.txt"))
+#def dataStatistics(data, statistic):
 # Insert your code here
-return result
+#return result
 
-def dataPlot(data):
+#def dataPlot(data):
 # Insert your code her
