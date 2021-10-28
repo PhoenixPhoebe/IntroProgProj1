@@ -5,6 +5,8 @@ def dataLoad(filename):
 # Insert your code here
 return data
 
+
+
 def dataStatistics(data, statistic):
 # Insert your code here
 return result
